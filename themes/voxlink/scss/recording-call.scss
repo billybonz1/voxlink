@@ -1,0 +1,520 @@
+.ande .inner{
+    padding: 0 15px;
+}
+.ande-head{
+    height: 530px;
+    max-height: 530px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-bottom: 2px solid #f57c00;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 80px;
+        line-height: 85px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 0;
+    }
+}
+
+.ande-head-text{
+    padding: 0 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.ande-head-icon{
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.ande-recording-call{
+    background-image: url('../minimg/recording-call/ande-recording.jpg');
+}
+
+.ande-verbal{
+    padding: 100px 0;
+    background-image: url('../minimg/recording-call/ande-verbal-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ande-verbal-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ande-verbal-block{
+    width: 49%;
+    img{
+        width: 100%;
+    }
+    .ande-verbal-p{
+        padding-right: 75px;
+        color: #000000;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}
+
+.ande-useful{
+    padding: 100px 0;
+    background-color: #f1f4f9;
+}
+
+.ande-useful-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ande-useful-block{
+    width: 50%;
+    &:first-child{
+        padding-right: 78px;
+        padding-top: 165px;
+        img{
+            width: 100%;
+            -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+            -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+            box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+        }
+    }
+    .ande-useful-h{
+        color: #263139;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    .ande-useful-p{
+        color: #7f8890;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+}
+
+.ande-easy{
+    background-color: #384150;
+    padding: 100px 0;
+}
+
+.ande-easy-h{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.ande-easy-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ande-easy-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    img{
+        margin-bottom: 50px;
+    }
+    .ande-easy-p{
+        color: #b0abb3;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}
+
+.ande-cose{
+    padding: 100px 0;
+}
+
+.ande-cose-th{
+    color: #263139;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.ande-cose-tp{
+    color: #263139;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    background-color: #ffc527;
+    display: block;
+    padding: 4px 20px;
+    margin: 0;
+    max-width: 811px;
+    margin-bottom: 87px;
+}
+
+.ande-cose-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ande-cose-block{
+    width: 50%;
+    position: relative;
+    margin-bottom: 45px;
+    padding-left: 80px;
+    padding-right: 35px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    p{
+        color: #7f8890;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        b{
+            color: #263139;
+        }
+    }
+}
+
+.ande-cose-block:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../minimg/recording-call/ande-cose-li.png');
+    width: 42px;
+    height: 42px;
+}
+
+.ande-system{
+    padding-top: 100px;
+    background-color: #6ab8c5;
+}
+
+.ande-system-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ande-system-block{
+    width: 49%;
+    img{
+        width: 100%;
+    }
+    .ande-system-p{
+        margin-bottom: 20px;
+        color: #000000;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .ande-system-s{
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #000000;
+        padding: 5px 0;
+        padding-left: 27px;
+        border-left: 3px solid #ffdf00;;
+        .ande-system-y{
+            color: #ffdf00;
+            font-weight: 700;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .ande-head h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .ande-verbal{
+        padding: 50px 0;
+    }
+    .ande-useful{
+        padding: 50px 0;
+    }
+    .ande-useful-block .ande-useful-h{
+        margin-bottom: 50px;
+    }
+    .ande-useful-block:first-child{
+        padding-top: 115px;
+    }
+    .ande-easy{
+        padding: 50px 0;
+    }
+    .ande-easy-h{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .ande-easy-in{
+        flex-wrap: wrap;
+    }
+    .ande-easy-block{
+        width: 48%;
+    }
+    .ande-easy-block .ande-easy-p{
+        margin-bottom: 0;
+    }
+    .ande-easy-block:first-child{
+        margin-bottom: 30px;
+    }
+    .ande-easy-block:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .ande-cose{
+        padding: 50px 0;
+    }
+    .ande-cose-th{
+        text-align: center;
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .ande-cose-tp{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .ande-system{
+        padding-top: 50px;
+    }
+    .ande-recording-call{
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .ande-system-in{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ande-system-block{
+        width: 100%;
+    }
+    .ande-system-block .ande-system-s{
+        margin-bottom: 0;
+    }
+    .ande-system-block:first-child{
+        margin-bottom: 30px;
+    }
+    .ande-system-block img{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .ande-verbal-in{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ande-verbal-block{
+        width: 100%;
+    }
+    .ande-verbal-block .ande-verbal-p{
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .ande-verbal-block:first-child{
+        margin-bottom: 30px;
+    }
+    .ande-verbal-block img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .ande-useful-in{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ande-useful-block{
+        width: 100%;
+    }
+    .ande-useful-block .ande-useful-h{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .ande-useful-block:first-child{
+        padding: 0;
+    }
+    .ande-useful-block:last-child{
+        margin-bottom: 30px;
+    }
+    .ande-useful-block:first-child img{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .ande-easy-in{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ande-easy-block{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ande-easy-block .ande-easy-p{
+        text-align: center;
+    }
+    .ande-easy-block:last-child{
+        margin-bottom: 0;
+    }
+    .ande-easy-block img{
+        width: 100px;
+        height: 100px;
+    }
+    .ande-easy{
+        padding: 30px 0;
+    }
+    .ande-easy-h{
+        margin-bottom: 30px;
+    }
+    .ande-cose{
+        padding: 30px 0;
+    }
+    .ande-cose-tp{
+        margin-bottom: 30px;
+    }
+    .ande-cose-th{
+        margin-bottom: 30px;
+    }
+    .ande-system{
+        padding-top: 30px;
+    }
+    .ande-easy-block img{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .ande-head{
+        max-height: 450px;
+    }
+    .ande-cose-in{
+        flex-direction: column;
+    }
+    .ande-cose-block{
+        width: 100%;
+    }
+    .ande-cose-block p{
+        margin-bottom: 0px;
+    }
+    .ande-cose-block{
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .ande-head h2{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .ande-head-icon{
+        bottom: 20px;
+    }
+    .ande-verbal{
+        padding: 30px 0;
+    }
+    .ande-verbal-block .ande-verbal-p{
+        text-align: center;
+    }
+    .ande-useful{
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ande-head h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .ande-head-text{
+        padding-bottom: 0;
+    }
+    .ande-verbal-block .ande-verbal-p{
+        font-size: 14px;
+    }
+    .ande-useful-block .ande-useful-h{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .ande-useful-block .ande-useful-p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .ande-useful-block:first-child img{
+        width: 100%;
+    }
+    .ande-cose-th{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .ande-easy-block .ande-easy-p{
+        font-size: 14px;
+    }
+    .ande-cose-block p{
+        font-size: 14px;
+    }
+    .ande-cose-tp{
+        font-size: 14px;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .ande-system-block .ande-system-p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .ande-system-block .ande-system-s{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ande-system-block img{
+        width: 100%;
+    }
+    .ande-cose-block{
+        padding-left: 60px;
+    }
+    .ande-recording-call{
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .ande-system-block .ande-system-s{
+        padding-left: 10px;
+    }
+    .ande-recording-call{
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,182 @@
+.part-banner {
+    margin-top: 70px;
+    @media(max-width: 786px){
+      margin-top: 30px;
+    }
+  }
+  .part-banner .banner-wrap {
+    background-image: url(../minimg/part-top-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .part-banner .banner-wrap .banner-text {
+    width: 100%;
+    max-width: 360px;
+    background-color: rgba(40, 44, 51, 0.6);
+    padding: 43px 25px;
+    @media(max-width: 420px){
+      padding: 30px 15px;
+    }
+  }
+  .part-banner .banner-wrap .banner-text span {
+    font-size: 36px;
+    color: #f7f8f8;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 300;
+    @media(max-width: 600px){
+      font-size: 30px;
+      line-height: 32px;
+    }
+  }
+  .part-banner .banner-wrap .banner-text p {
+    font-size: 14px;
+    color: #f7f8f8;
+    font-weight: 300;
+  }
+  .part-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 0 15px;
+    margin-bottom: 100px;
+    position: relative;
+    @media(max-width: 786px){
+      margin-top: 0px;
+      padding: 0;
+    }
+  }
+  .part-list:after{
+      position: absolute;
+      width: 863px;
+      height: 1px;
+      background-color: #e7e7e7;
+      bottom: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: '';
+  }
+  .part-list .part-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    max-width: 480px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 25px 15px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    @media(max-width: 700px){
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 0;
+      &:last-child{
+        margin-bottom: 0;
+        .part-item-container{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  .part-list .part-item:nth-child(5):hover svg use {
+    fill: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  .part-list .part-item:nth-child(5) svg {
+    width: 45%;
+    z-index: 100;
+  }
+  .part-list .part-item:last-child {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .part-list .part-item:last-child span {
+    cursor: default;
+  }
+  .part-list .part-item:last-child p{
+      margin-bottom: 15px;
+  }
+  .part-list .part-item:last-child a {
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    box-shadow: inset 0 -2px 0 #b3651d;
+    background-color: #fb7104;
+    background-image: linear-gradient(to top, #f78c28 0%, #f9a13a 100%);
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+  }
+  .part-list .part-item:last-child a:hover {
+    text-decoration: none;
+    border: 0;
+    background-image: linear-gradient(to top, #f78c28 100%, #f9a13a 0);
+  }
+  .part-list .part-item:hover span {
+    color: #ff8a00;
+  }
+  .part-list .part-item:hover .desc-img {
+    background-color: #ff8a00;
+    transition: 0.3s ease-in-out;
+  }
+  .part-list .part-item:hover{
+      .desc-img{
+          svg use,svg path {
+            fill: #fff;
+          }
+      }
+  }
+  .part-list .part-item .desc-img {
+    width: 70px;
+    height: 70px;
+    background-color: #f9f9f9;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg use,svg path {
+        transition: all 0.3s;
+        fill: #ff8a00;
+    }
+    @media(max-width: 420px){
+      margin-bottom: 30px;
+    }
+  }
+  .part-item-container{
+    flex: 1;
+    padding-left: 25px;
+    @media(max-width: 420px){
+      padding-left: 0;
+      flex: 0 0 100%;
+      text-align: center;
+    }
+  }
+  div.part-item a{
+      transition: all 0.3s;
+  }
+
+  .part-list .part-item span {
+    font-size: 21px;
+    line-height: 21px;
+    color: #263139;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+  .part-list .part-item p {
+    font-size: 14px;
+    color: #7f8890;
+    word-wrap: break-word;
+    font-weight: 300;
+  }

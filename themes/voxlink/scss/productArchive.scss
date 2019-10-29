@@ -1,0 +1,204 @@
+.main-content-left-pcat{
+    padding-top: 14px;
+}
+
+.top-product {
+    padding: 20px 20px 29px 20px;
+    background-color: #3a3d4b;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    &.active{
+        display: block;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .col-sm-5{
+        display: flex;
+        align-items: center;
+        a{
+            display: block;
+            width: 100%;
+        }
+    }
+    .col-sm-5,.col-sm-7{
+        padding: 0 20px;
+    }
+    .top-product-slider img{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: auto;
+        @media(max-width: 767px){
+            max-width: 350px;
+            margin-bottom: 20px;
+        }
+    }
+    @media(max-width: 991px){
+        margin-bottom: 0;
+    }
+}
+.top-product:after {
+    position: absolute;
+    width: 465px;
+    height: 100%;
+    top: 0;
+    left: -29px;
+    opacity: .2;
+    background: url(../img/top-product.png) right center no-repeat;
+    content: "";
+    background-size: cover;
+    @media(max-width: 767px){
+        display: none;
+    }
+}
+.top-product * {
+    position: relative;
+    z-index: 2;
+}
+.top-product h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-top: 43px;
+    text-transform: none;
+}
+.top-product p {
+    color: #b0abb3;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 24px;
+}
+.top-product-sticker {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+    background-color: #ffb100;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.top-product-price {
+    color: #696c75;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 24px;
+}
+.top-product-price del {
+    text-decoration: line-through;
+    margin-right: 10px;
+    @media(max-width: 1196px){
+        color: #fff;
+    }
+}
+.top-product-price ins,.top-product-price > span {
+    color: #8ec051;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.top-product-btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    background-color: #f57c00;
+    padding: 14px 2px;
+    text-align: center;
+    margin-top: 17px;
+    border-radius: 2px;
+    display: block;
+    float: left;
+    transition: .3s all;
+    @media(max-width: 346px){
+        padding: 14px 22px;
+    }
+}
+.top-product-btn:focus, .top-product-btn:hover {
+    background-color: #dc6f00;
+    color: #fff;
+}
+.top-product-rating {
+    position: absolute;
+    right: 21px;
+    top: 0;
+}
+.top-product-link {
+    color: #b0abb3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration: underline;
+    margin-top: 21px;
+    &:hover,&:focus{
+        color: #b0abb3;
+        text-decoration: underline;
+    }
+    @media(max-width: 438px){
+        float: none !important;
+        display: block;
+        width: 100%;
+    }
+}
+.top-product-link .icon {
+    margin-left: 5px;
+}
+
+@media(max-width: 438px){
+    .tp-clearfix{
+        clear: both;
+    }
+}
+
+
+
+
+div.products-sorting div.mobile-filter-open{
+    display: none;
+}
+
+.top-products{
+    user-select: none;
+    &:nth-child(2){
+        margin-top: 36px;
+    }
+}
+
+.top-product-slider.owl-carousel:not(.owl-loaded){
+    max-height: 307px;
+    overflow: hidden;
+}
+
+.top-product-slider{
+    .owl-dots{
+        text-align: center;
+        padding: 0.5px 0;
+        margin-bottom: -25px;
+        margin-top: 6px;
+    }
+    .owl-dot{
+        width: 8px;
+        height: 8px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        display: inline-block;
+        margin: 10px 4px;
+        transition: .2s all;
+        &.active{
+            border-color: #ff8a00;
+            background: #ff8a00;
+        }
+    }
+}

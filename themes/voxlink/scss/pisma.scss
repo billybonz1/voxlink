@@ -1,0 +1,166 @@
+.pisma-item {
+    display: block;
+    padding: 50px 0;
+    padding-left: 68px;
+    position: relative;
+    transition: .2s all;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .our-letters__item{
+        margin: 0;
+        box-shadow: none;
+        border: 1px solid #e7e7e7;
+        img{
+            width: 100%;
+        }
+    }
+    @media(max-width: 1199px){
+        padding-left: 0;
+    }
+    @media(max-width: 560px){
+        padding: 30px 0;
+        justify-content: center;
+        .our-letters__item{
+            max-width: 187px;
+            flex: 0 0 100%;
+            margin-bottom: 25px;
+        }
+    }
+}
+.pisma-item:focus:after, .pisma-item:hover:after {
+    background-color: #b4b4b4;
+}
+.pisma-item:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #e7e7e7;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: .2s all;
+    transition: .2s all;
+}
+
+.pisma-right {
+    padding-left: 96px;
+    padding-right: 15px;
+    flex: 1;
+    @media(max-width: 1199px){
+        padding-left: 30px;
+    }
+    @media(max-width: 560px){
+        flex: 0 0 100%;
+        padding-left: 0px;
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+.pisma-right h5 {
+    color: #263139;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    @media(max-width: 560px){
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
+.pisma-right p,.pisma-right {
+    color: #7f8890;
+    font-size: 16px;
+    font-weight: 300;
+    @media(max-width: 560px){
+        font-size: 14px;
+    }
+}
+
+.pisma-right > a {
+    display: block;
+    color: #ff8a00;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 30px;
+}
+.main-content-left-pisma {
+    padding-top: 50px;
+    @media(max-width: 600px){
+        padding-top: 30px;
+    }
+}
+
+
+.pisma-ind{
+    background-image: none;
+    padding-top: 42px;
+    padding-bottom: 50px;
+    padding-right: 42px;
+    padding-left: 29px;
+    .clients-item22.x2{
+        width: 261px;
+        padding-top: 0;
+        height: auto;
+        border: 0;
+        margin: 0 auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .col-md-6{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            &:last-child{
+                padding-left: 85px;
+                justify-content: center;
+                @media(max-width: 1181px){
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+    @media(max-width: 1101px){
+        h2{
+            font-size: 20px;
+            line-height: 22px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    @media(max-width: 991px){
+        padding-right: 20px;
+        padding-left: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 0;
+        .row{
+            .col-md-6:first-child{
+                order: 2;
+                justify-content: center;
+                text-align: center;
+            }
+            .col-md-6:last-child{
+                order: 1;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+
+.pisma-client{
+    width: 33.3333%;
+    img{
+        max-width: 84%;
+        margin: 0 auto 35px;
+        display: block;
+    }
+}

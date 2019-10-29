@@ -1,0 +1,215 @@
+.main-content-left.kb-content.clients-content2{
+	margin-bottom: 70px;
+	@media(max-width: 600px){
+		margin-bottom: 30px;
+	}
+}
+
+.main-content-left.kb-content.clients-content2 p{
+	margin-top: 15px;
+}
+.main-content-left.kb-content.clients-content2 h2,
+.main-content-left.kb-content.clients-content2 h1{
+	margin-bottom: 0;
+}
+
+
+.clients-wrap{
+	text-align: center;
+	font-size: 0;
+	margin: 70px 0;
+	margin-bottom: 0;
+	@media(max-width: 1199px){
+	    position: relative;
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+	@media(max-width: 600px){
+	    margin: 30px 0;
+	}
+}
+
+.clients-item-hover{
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s all;
+	position: absolute;
+	transform: scale(0);
+	width: 700px;
+	box-shadow: 0 7px 15px rgba(40, 44, 51, 0.3);
+	background-color: #ffffff;
+	bottom: 100px;
+	right: -60px;
+	border-radius: 12px;
+	padding: 20px 32px;
+	text-align: left;
+	padding-left: 130px;
+	&:after{
+	    border: 10px solid transparent;
+	    border-top: 10px solid #fff;
+	    position: absolute;
+	    right: 150px;
+        bottom: -20px;
+	    content: "";
+	}
+	@media(max-width: 1199px){
+	    right: auto;
+	    bottom: auto;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	    width: 100%;
+	    &:after{
+	        display: none;
+	    }
+	}
+	@media(max-width: 460px){
+		padding-left: 32px;
+	}
+}
+.clients-item2:nth-child(2) .clients-item-hover,
+.clients-item2:nth-child(6) .clients-item-hover,
+.clients-item2:nth-child(5) .clients-item-hover,
+.clients-item2:nth-child(1) .clients-item-hover{
+    @media(min-width: 1200px){
+        right: auto;
+    	left: -60px;
+    	&:after{
+    	    right: auto;
+    	    left: 150px;
+    	}
+    }
+}
+
+.clients-wrap .clients-item-hover img{
+	position: absolute;
+	max-width: 67px !important;
+	left: 32px;
+	top: 20px;
+	@media(max-width: 460px){
+		position: static;
+		max-width: 100% !important;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+
+.clients-item2{
+	width: 188px;
+	height: 187px;
+	border: 1px solid #e6e6e6;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -1px;
+	margin-top: -1px;
+	position: relative;
+	@media(max-width: 1199px){
+	    position: static;
+	    display: flex;
+	    flex-wrap: wrap;
+	    align-items: center;
+	    justify-content: center;
+	}
+	@media(max-width: 600px){
+	   width: 25%;
+	   height: 140px;
+	}
+	@media(max-width: 460px){
+		width: 33.33333%;
+	}
+	@media(max-width: 380px){
+		width: 50%;
+	}
+}
+.clients-wrap .clients-item2 > img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto !important;
+	max-width: 84%;
+	@media(max-width: 1199px){
+        position: static;
+	}
+}
+
+.clients-item2.active{
+	z-index: 2;
+}
+.clients-item2.active .clients-item-hover{
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1);
+	@media(max-width: 1199px){
+	   transform: scale(1) translate(-50%,-50%);
+	}
+}
+
+.main-content-left.kb-content .clients-item-hover p{
+	color: #7f8890;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	margin-top: 20px;
+	@media(max-width: 600px){
+	    line-height: 18px;
+	}
+}
+
+.main-content-left.kb-content .clients-item-hover h3{
+	color: #263139;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0;
+	text-transform: none;
+	margin-top: 0;
+	@media(max-width: 600px){
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+}
+
+
+
+.icon-pismo{
+	width: 14px;
+    height: 16px;
+    background: url(../img/icon-pismo.svg);
+    background-size: cover;
+    margin-right: 7px;
+}
+
+.main-content-left.kb-content .clients-item-hover a{
+	color: #263139;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 14px;
+	display: block;
+	margin-top: 30px;
+	margin-right: 3px;
+}
+
+
+
+
+.clients-ind{
+	background-image: url(../minimg/clients-ind.png);
+    background-position: 436px bottom;
+    margin-bottom: 70px;
+    @media(max-width: 600px){
+    	margin-bottom: 30px;
+    }
+}
+
+.clients-item-hover-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 47px;
+    height: 47px;
+    background: url(../img/clients-item-hover-close.svg) no-repeat center;
+    cursor: pointer;
+}

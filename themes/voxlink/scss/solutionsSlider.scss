@@ -1,0 +1,237 @@
+.reshenie-content {
+    padding: 50px 0;
+    position: relative;
+    @media(max-width: 450px){
+        .col-md-12{
+            padding: 0;
+        }
+    }
+}
+.reshenie-content h2 {
+    color: #263139;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 40px;
+    @media(max-width: 475px){
+        font-size: 24px;
+    }
+}
+.resh-slider {
+    position: relative;
+    margin-bottom: 70px;
+    & > ul{
+        width: 2000px;
+        li{
+            float: left;
+        }
+    }
+    &:after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    @media(max-width: 495px){
+        .ip-next, .ip-prev{
+    		width: 25px;
+        	height: 25px;
+        	background-size: cover;
+        	margin-top: -12.5px;
+    	}
+    }
+    @media(max-width: 450px){
+        margin-bottom: 30px;
+        .ip-next{
+            right: 5px;
+        }
+        .ip-prev{
+            left: 5px;
+        }
+    }
+}
+
+.resh-slider .lSSlideOuter{
+	padding: 0 64px;
+	@media(max-width: 495px){
+	    padding: 0 30px;
+	}
+	@media(max-width: 450px){
+	    padding: 0;
+	}
+}
+
+.resh-slider .lslide {
+    padding-top: 41px;
+
+}
+
+
+
+.resh-item {
+    width: 320px;
+    margin: 0 auto;
+    border: 1px solid #d7d5d9;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-left: 0;
+    @media(max-width: 1132px){
+        width: 100%;
+        max-width: 370px;
+    }
+    @media(max-width: 931px){
+        padding-left: 20px;
+		padding-right: 20px;
+    }
+    @media(max-width: 450px){
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 250px;
+    }
+}
+.resh-item h3 {
+    color: #263139;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: none;
+    line-height: 25px;
+    letter-spacing: 0;
+    min-height: 82px;
+    padding: 0 10px;
+    @media(max-width: 495px){
+        line-height: 31px;
+    }
+}
+.resh-item h3 span {
+    font-size: 12px;
+}
+.resh-item h4 {
+    color: #ff8a00;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+.resh-item h4 span {
+    font-size: 16px;
+}
+.resh-item-desc{
+    color: #7f8890;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    position: relative;
+    max-width: 220px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.resh-item-desc > p {
+    color: #7f8890;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    position: relative;
+}
+.resh-item p:after {
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    height: 1px;
+    background-color: #d7d5d9;
+}
+.resh-item ul {
+    padding: 0 20px;
+    padding-top: 24px;
+    text-align: left;
+    @media(max-width: 450px){
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.resh-item ul li {
+    color: #7f8890;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 30px;
+    margin-bottom: 14px;
+    line-height: 16px;
+    background: url(../img/checkmark.png) no-repeat left 7px;
+    &:last-child{
+        margin-bottom: 0px;
+    }
+}
+.resh-item strong {
+    color: #263139;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.resh-item-img {
+    padding: 0 14px;
+    background: #fff;
+    display: inline-block;
+    min-height: 70px;
+    img{
+        min-height: 68px;
+        max-height: 68px;
+        &[src]{
+            min-height: unset;
+        }
+    }
+}
+.resh-item-img-cont {
+    margin-top: -39px;
+    margin-bottom: 31px;
+}
+.resh-item-content {
+    min-height: 425px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.resh-item-content > p{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+}
+
+.resh-item-price{
+	color: #ff8a00;
+    font-weight: 300;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.resh-item-price strong{
+	font-size: 40px;
+	font-weight: 300;
+	color: #ff8a00;
+}
+
+.resh-item p:after {
+	display: none;
+}
+
+.resh-item p{
+	color: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.resh-slider .lSSlideOuter .lSPager.lSpg {
+    margin-top: 30px!important;
+}
+.resh-slider .lSSlideOuter .lSPager.lSpg>li a {
+    width: 9px;
+    height: 9px;
+    border: 1px solid #7f8890;
+    background-color: transparent;
+}
+.resh-slider .lSSlideOuter .lSPager.lSpg>li.active a {
+    -webkit-box-shadow: 0 0 0 2px #7f8890;
+    box-shadow: 0 0 0 2px #7f8890;
+    background-color: #7f8890;
+}

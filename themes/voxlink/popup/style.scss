@@ -1,0 +1,165 @@
+// ПОПАП
+
+.for-popup{
+    background-color: black;
+    padding: 60px 0;
+}
+
+.taka-popup{
+    width: 961px;
+    height: 600px;
+    margin: auto;
+    background-image: url(../minimg/fast-popup-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    h5{
+        display: inline-block;
+        color: #000000;
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 50px;
+        text-transform: uppercase;
+        background-color: #ffc527;
+        margin-bottom: 5px;
+        padding: 0 5px;
+    }
+    h2{
+        color: #263139;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    p{
+        color: #263139;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 15px;
+        span{
+            background-color: #ffc527;
+            padding: 0 4px;
+        }
+    }
+    h3{
+        color: #263139;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        margin-top: 50px;
+    }
+    @media(max-width: 1000px){
+        background-image: url(../minimg/fast-popup-clear.png);
+        width: 95%;
+        height: auto;
+        padding: 40px 0;
+        padding-bottom: 60px;
+        h3{
+            margin-top: 20px;
+        }
+    }
+    @media(max-width: 600px){
+        text-align: center;
+        background-image: none;
+        background-color: white;
+        padding: 15px;
+        border-radius: 20px;
+        h5{
+            font-size: 25px;
+            line-height: 30px;
+        }
+        h2{
+            font-size: 35px;
+            line-height: 35px;
+        }
+        p{
+            br{
+                display: none;
+            }
+        }
+    }
+}
+
+.taka-popup-anoth{
+    width: 830px;
+    background-image: url(../minimg/fast-popup-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media(max-width: 1000px){
+        background-image: url(../minimg/fast-popup-clear.png);
+        width: 95%;
+        height: auto;
+        padding: 40px 0;
+        padding-bottom: 60px;
+    }
+    @media(max-width: 600px){
+        text-align: center;
+        background-image: none;
+        background-color: white;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+.taka-popup-in{
+    padding-top: 72px;
+    padding-left: 120px;
+    @media(max-width: 1000px){
+        padding-top: 40px;
+    }
+    @media(max-width: 600px){
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
+
+.taka-form{
+    width: 370px;
+    text-align: center;
+    label{
+        height: 42px;
+        display: block;
+        margin-top: 20px;
+        input{
+            background-color: #f1f4f9;
+            width: 100%;
+            height: 100%;
+            border-radius: 200px;
+            border: none;
+            outline: none;
+            padding-left: 20px;
+        }
+    }
+    button{
+        box-shadow: inset 0 -2px 0 #127323;
+        background-color: #71c34c;
+        outline: none;
+        border-radius: 200px;
+        border: none;
+        padding: 6px 32px;
+        transition: .2s all;
+        margin-top: 20px;
+        img{
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        span{
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 41.47px;
+            text-transform: uppercase;
+            vertical-align: middle;
+            transition: .2s all;
+        }
+        &:hover{
+            background-color: darken(#71c34c ,10);
+        }
+    }
+    @media(max-width: 600px){
+        margin: 0 auto;
+        width: 100%;
+    }
+}

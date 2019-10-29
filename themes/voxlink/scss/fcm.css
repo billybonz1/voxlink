@@ -1,0 +1,56 @@
+.header-callmet {
+  background-image: url(../minimg/mikrotik-courses/mcbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  border-bottom: 2px solid #f57c00; }
+  @media (max-width: 600px) {
+    .header-callmet {
+      padding-top: 65px;
+      padding-bottom: 111px; } }
+  .header-callmet p {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 15px; }
+  @media (max-width: 620px) {
+    .header-callmet br {
+      display: none; }
+    .header-callmet p {
+      font-size: 18px;
+      line-height: 24px; } }
+
+.h1-callmet {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 15px; }
+  @media (max-width: 1400px) {
+    .h1-callmet {
+      font-size: 60px;
+      line-height: 70px;
+      padding: 0 15px; } }
+  @media (max-width: 800px) {
+    .h1-callmet {
+      font-size: 40px;
+      line-height: 50px;
+      padding: 0 15px; } }
+  @media (max-width: 500px) {
+    .h1-callmet {
+      font-size: 28px;
+      line-height: 35px; } }
+  @media (max-width: 400px) {
+    .h1-callmet br {
+      display: none; } }
+
+/*# sourceMappingURL=fcm.css.map */

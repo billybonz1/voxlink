@@ -1,0 +1,416 @@
+/*-------------- Page-pred-audit ------------------*/
+
+
+@media(max-width: 992px){
+	
+
+	.ande-time-price .ande-notice-include{
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 50px;
+		margin: 0 auto;
+	}
+}
+
+
+
+/*--------------END Page-pred-audit ------------------*/
+
+
+@media(max-width: 1200px){
+	.solutions-steps .col-md-6{
+		width: 100%;
+	}
+	.solutions-step{
+		margin-bottom: 30px;
+	}
+	.solutions-ind{
+		background-position: 280px bottom;
+	}
+	.solutions-ind .col-md-12{
+		padding-left: 30px;
+	}
+	.main-content-left.kb-content.solutions-content + .faq .faq__item{
+		margin-left: 0;
+	}
+	.dakr-analize{
+		padding: 0 65px;
+		text-align: center;
+	}
+	.dakr-uslugi-block .dakr-analize li{
+		margin: 15px;
+	}
+	.dakr-uslugi-block3 ul{
+		padding: 0 105px;
+	}
+	.dakr-uslugi-block4 ul li p{
+		width: 70%;
+		font-size: 15px;
+	}
+	.dakr-uslugi-block4 ul li p span{
+		font-size: 25px;
+	}
+	.dakr-uslugi-block .dakr-pag li{
+		width: 120px;	
+		font-size: 12px;
+	}
+	.db-inner li{
+		width: 23%;
+	}
+	body .dakr-ivr{
+		background-position:  top right;
+		padding: 0;
+	}
+	.dakr-needed .dakr-eco .col-md-6:nth-child(1){
+		padding: 0px 20px;
+	}
+	.dakr-needed .dakr-eco img{
+		width: 29%;
+	}
+	body .dakr-whatb{
+		background-image: url(/wp-content/themes/voxlink/img/ivr-kakbg124.png);
+		background-position: -1px 350px;
+	}
+	body .dakr-whatb .ub2__item{
+		margin-right: 60px;
+		width: 200px;
+	}
+	body .dakr-whatb .ub2__item p{
+		font-size: 10px;
+	}
+	body .dakr-whatb .ub2__item p strong{
+		
+font-size: 15px;
+	}
+	body .dakr-whatb .ub2__item:last-child{
+		
+margin-right: 0;
+	}
+	body .dark-ivrprice .vc_message_box{
+		
+width: 100%;
+	}
+	body .dakr-listsing li{
+		
+width: 18%;
+	}
+}
+
+
+
+
+@media(max-width: 991px){
+	.solutions-ind{
+			background-position: 386px bottom;
+	}
+	.develop-ind img{
+		margin-top: 50px;
+		max-width: 100%;
+	}
+}
+
+@media(max-width: 931px){
+	.hc__item{
+		padding-left: 117px;
+	}
+	.faq__item{
+		margin-left: 117px;
+	}
+	.bis-item{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.kb-content.reshenie-content .vc_color-alert-warning.vc_message_box{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.faq__q{
+		position: relative;
+    	padding-left: 28px;
+	}
+	.faq__q:before{
+		position: absolute;
+		left: 0;
+	}
+}
+
+@media(max-width: 800px){
+	.dakr-uslugi-block .dakr-1c .col-md-7 img{
+		width: 86%;
+	}
+	.dakr-uslugi-block .dakr-1c{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	}
+	.dakr-uslugi-block .dakr-1c .col-md-5{
+		padding: 40px 0px;
+	}
+	.dakr-uslugi-block .dakr-1c p{
+		font-size: 14px;
+	}
+	.dakr-uslugi-block3 ul{
+		padding: 0;
+	}
+	body .dakr-ivr h1{
+
+text-align: center;
+
+}
+	body .dakr-ivr{
+		height: 600px;
+		background-size: 100%;
+		background-position: 0px 100%;
+		background-image: url(/wp-content/themes/voxlink/img/ivr-topt.png);
+	} 
+	body .dakr-eco{
+		
+height: 320px;
+		
+background-size: 105%;
+		
+background-repeat: no-repeat;
+		
+background-position: -20px 25px;
+	}
+	.dakr-needed .dakr-eco img{
+		
+width: 49%;
+	}
+	body .dakr-whatb .ub2__item:nth-child(2){
+
+margin-top: 100px;
+
+	}
+	body .dakr-whatb .ub2__item:last-child{
+		
+margin-right: 60px;
+		
+margin-top: 100px;
+	}
+	body .dakr-whatb .ub2__item{
+		
+float:  none;
+		
+display: inline-block;
+		
+vertical-align:  middle;
+	}
+	body .dakr-whatb{
+		
+text-align: center;
+		
+background-image: url(/wp-content/themes/voxlink/img/ivr-kakbg8.png);
+		
+background-position:  bottom;
+	}
+	.dakr-voisers .dakr-voicer{
+		
+margin-bottom: 40px;
+	}
+	body .dark-ivrprice .vc_message_box p{
+		
+width: 70%;
+	}
+	body .dakr-listsing li{
+		
+width: 18%;
+	}
+	body .dakr-listsing li img{
+		
+width: 80%;
+	}
+}
+
+
+@media (max-width: 699px) {
+	.dakr-uslugi-block4 .col-xs-3{
+		width: 100%;
+	}
+	.dakr-uslugi-block4 .col-xs-6{
+		width: 100%;
+	}
+	.dakr-mline img{
+		display: block;
+		margin: 0 auto;
+	}
+	.dakr-uslugi-block4 .dakr-mline div{
+		left: 73%;
+	}
+	body .dakr-eco{
+		background-image:  none;
+	}
+	body .dakr-whatb .ub2__item{
+		margin-left: 50px;
+	}
+	
+}
+
+@media(max-width: 592px){
+	.single-solutions-img{
+		padding: 20px;
+	}
+	.solutions-tab-table .col-xs-4{
+		padding-left: 20px;
+	}
+	.solutions-ind .col-md-12{
+		padding-right: 30px;
+	}
+	.main-content-left.kb-content.solutions-content ul{
+		padding-left: 0;
+	}
+
+	.dakr-uslugi-block .col-xs-7{
+		width: 100%;
+	}
+	.dakr-uslugi-block .col-xs-5{
+		width: 100%;
+	}
+	.dakr-uslugi-block .dakr-1c{
+		background-image: none;
+		background-color: #fff;
+	}
+	.dakr-uslugi-block .dakr-1c .col-md-5 img{
+		margin: 10px auto;
+	}
+	.dakr-uslugi-block .dakr-1c p{
+		text-align: center;
+	}
+	.ub3__items .col-md-7 img {
+		width: 100%;
+	}
+	.dakr-uslugi-block2 img {
+		width: 100%;
+	}
+	.dakr-mline div{
+		display: none;
+	}
+	.dakr-uslugi-block4 .col-xs-3{
+		width: 100%;
+	}
+	.dakr-uslugi-block4 .col-xs-6{
+		width: 100%;
+	}
+	.dakr-mline img{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+@media(max-width: 495px){
+	.faq__item{
+		margin-left: 0px;
+	}
+	.hc__item{
+		padding-left: 0px;
+	}
+	
+	.solutions-tab-table .col-xs-4{
+		padding-left: 15px;
+		font-size: 11px;
+	}
+	.solutions-tab{
+		padding: 10px;
+		border: 0;
+	}
+	.develop-item{
+		padding-left: 0;
+		padding-top: 132px;
+		text-align: center;
+	}
+	.develop-item-img{
+		left: 50%;
+		margin-left: -50px;
+	}
+	.ub3__items .col-md-7 img{	
+		width: 100%;
+	}
+	.dakr-uslugi-block .dakr-pag li{
+		display: block;
+		width: 100%;
+	}
+	.dakr-analize{
+		padding: 0;
+	}
+	.dakr-uslugi-block2 img{	
+		width: 100%;
+	}
+	.dakr-uslugi-block2 .inner .salers{
+		width: 100%;
+		/* font-size: 22px; */
+	}
+	.dakr-uslugi-block2 .inner .salers .s-price{
+		font-size: 30px;
+	}
+	.dakr-uslugi-block4 .col-xs-3{
+		width: 100%;
+	}
+	.dakr-uslugi-block4 .col-xs-6{
+		width: 100%;
+	}
+	.dakr-mline div{
+		display: none;
+	}
+	.uslugi-block .ulsugi2-inner h2{
+		line-height: 1;
+	}
+	.dakr-voicer .voicer__player .sound{		
+		margin: 0;
+	}
+	.dakr-voicer .voicer__player{	
+		width: 100%;
+	}
+	.dakr-voicer .voicer__player p{
+		margin: 0 5px;
+	}
+	.dakr-voicer .voicer__player input[type='range']{
+		margin-right: 0px;
+	}
+	body .dakr-whatb .ub2__item{
+		
+margin: 78px auto;
+		
+display: block;
+	}
+	.dakr-whatb .dakr-buys{
+		
+padding-bottom: 120px;
+	}
+	body .dakr-whatb{
+		
+height: auto;
+	}
+	body .dakr-whatb .ub2__item:last-child{
+		
+margin: 0 auto;
+	}
+	.dakr-eco .col-xs-6{
+		
+width: 100%;
+	}
+	body .dakr-banner{
+		
+height: auto;
+		
+background-repeat: no-repeat;
+		
+background-size: cover;
+	}
+	body .dakr-banner ul li{
+		
+width: 40%;
+	}
+	body .dakr-preym li{
+		
+width: 100%;
+		
+text-align: center;
+		
+margin-bottom: 15px;
+	}
+	body .dakr-preym{
+		
+padding-bottom: 30px;
+	}
+}
